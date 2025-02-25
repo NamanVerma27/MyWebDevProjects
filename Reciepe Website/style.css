@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(151, 147, 147, 0.297);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    overflow-x: none; /* Prevent horizontal scrolling */
+}
+
+.navContainer {
+    border: 1px solid black;
+    width: 100%;
+    box-sizing: border-box;
+
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height: 70px;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;/* position: fixed; Make the navbar fixed at the top */
+    top: 0; /* Position at the top */
+    left: 0; /* Align to the left edge */
+    z-index: 100; /* Ensure it stays above other content */
+}
+
+#navbar {
+    width: 100%;
+    padding: 0px 11px 0px 7px;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure the list fills the available width */
+}
+
+#nav {
+    margin-right: 12px;
+
+    font-size: 1.5rem;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+}
+
+#title {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 1px rgba(132, 129, 129, 0.265);
+    color: white;
+    font-family:Impact, Haettenschweiler, arial black;
+}
+
+.containerbox{
+    width: 70%;
+    margin: auto;
+
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerbox{
+    padding: 4px;
+    background-image:linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerbox p{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(132, 129, 129, 0.4);
+}
