@@ -165,3 +165,10 @@ a{
     color: white;
     text-shadow: 1px 1px 1px rgba(132, 129, 129, 0.4);
 }
+
+hr{
+    margin: 20px;
+
+    border: 0.1px solid black;
+    border-radius: 20px;
+}

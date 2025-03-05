@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #8BC6EC;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont1{
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+#card1{
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#img{
+    width: fit-content;
+    height: 550px;
+}
+
+#img img{
+    padding: 14px;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#textbox1{
+    padding: 0 14px 14px 14px;
+    font-size: 0.8rem;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+#textbox1 p{
+    font-weight: 520;
+}
+
+#cont2{
+    background-image: linear-gradient(135deg, #252627 0%, #9192a4 100%);
+}
