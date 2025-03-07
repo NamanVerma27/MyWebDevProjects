@@ -15,7 +15,7 @@
 }
 
 #cont1{
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background: linear-gradient(180deg, #8BC6EC 0%, #9599E2 60%, #252627ea 90%);
 }
 
 #card1{
@@ -57,7 +57,7 @@
 }
 
 #cont2{
-    background-image: linear-gradient(135deg, #252627 0%, #9192a4 100%);
+    background: linear-gradient(180deg, #252627ea 20%, #5b6467 60%, #84fab0 100%);
 }
 
 #card2{
@@ -108,7 +108,7 @@
     font-size: small;
 }
 
-#leftbox{
+#amountbox #leftbox{
     display: flex;
     align-items: center;
     gap: 12px;
@@ -142,4 +142,65 @@
     color: rgb(46, 43, 43);
     font-size: 0.9rem;
     font-weight: bold;
+}
+
+#cont3{
+    background: linear-gradient(180deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+#card3{
+    width: 670px;
+    height: 370px;
+    background-color: purple;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 10px;
+}
+
+#card3 #leftbox{
+    width: 55%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+
+    padding: 15px 36px 15px 30px;
+}
+
+#card3 #leftbox h1{
+    font-size: 1.8rem;
+}
+
+#card3 #leftbox p{
+    font-weight: 500;
+}
+
+#card3 #rightbox{
+    width: 45%;
+    height: 100%;
+}
+
+#card3 #rightbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+#statbox{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#statbox p1{
+    font-size: 1.3rem;
+    font-weight: 700;
 }
