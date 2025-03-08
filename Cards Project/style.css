@@ -15,7 +15,7 @@
 }
 
 #cont1{
-    background: linear-gradient(180deg, #8BC6EC 0%, #9599E2 60%, #252627ea 90%);
+    background: linear-gradient(180deg, #8BC6EC , #9599E2 , #252627ea );
 }
 
 #card1{
@@ -57,7 +57,7 @@
 }
 
 #cont2{
-    background: linear-gradient(180deg, #252627ea 20%, #5b6467 60%, #84fab0 100%);
+    background: linear-gradient(180deg, #252627ea , #5b6467 , #84fab0 );
 }
 
 #card2{
