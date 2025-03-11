@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+:root{
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    background-color: var(--background-color);
+    padding: 1.6rem;
+}
+
+.header-content{
+    max-width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.220rem;
+}
+
+.logo-icon{
+    height: 1.2rem;
+    width: 1.4rem;
+}
+
+.logo-text{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.nav{
+    display: none;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+
+.nav-link{
+    color: #718096;
+    font-size: 0.7867rem;
+    font-weight: 600;
+    transform: color 0.1s;
+}
+
+.nav-link:hover{
+    color: var(--link-color);
+}
+
+.contact-button{
+    display: none;
+
+    padding: 0.37rem 0.6rem 0.41rem 0.6rem;
+    font-size: 0.66rem;
+    font-weight: 600;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+
+    border: none;
+    border-radius: 0.175rem;
+
+    transform: background-color 0.1s;
+}
+
+.contact-button:hover{
+    background-color: #5254f8;
+}
+
+.menu{
+    display: none;
+    border: none;
+    border-radius: 0.175rem;
+    background-color: var(--background-color);
+}
+
+.menu-icon{
+    width: 1rem;
+    height: 1rem;
+}
+
+@media screen and (min-width:600px) {
+    .nav{
+        display: flex;
+    }
+
+    .contact-button{
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .menu{
+        display: block;
+    }
+}
+
