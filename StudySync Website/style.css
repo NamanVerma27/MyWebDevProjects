@@ -255,3 +255,70 @@ body{
         height: 66vh;
     }
 }
+
+.company-container{
+    margin-top: 0.8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    animation: slideFromLeft 1s ease forwards;
+}
+
+#c-cHeading{
+    font-size: 1rem;
+}
+
+.company-grid{
+    background-color: var(--light-gray);
+    padding: 1.1rem 1.5rem;
+    margin-top: 0.9rem;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+
+    border: none;
+    border-radius: 0.425rem;
+}
+
+.company-logo{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.logo-image{
+    height: 0.95rem;
+}
+
+/* .logo-name{
+    text-align: center;
+} */
+
+@media screen and (min-width:600px) {
+    #c-cHeading{
+        margin-top: 2rem;
+
+        font-size: 1.38rem;
+        font-weight: bold;
+    }
+
+    .company-grid{
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 2rem;
+        padding: 0.9rem 1.8rem;
+        border-radius: 0.225rem;
+    }
+
+    .company-logo{
+        font-size: 0.7rem;
+    }
+}
