@@ -427,3 +427,29 @@ body{
 .card-description{
     font-size: 0.7rem;
 }
+
+@media screen and (max-width:600px) {
+    #container-heading{
+        font-size: 1.2rem;
+    }
+
+    .card-container{
+        max-width: 50%;
+    }
+
+    .card-grid{
+        margin-top: 1.2rem ;
+    }
+
+    .card-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card{
+        gap: 0.4rem;
+    }
+
+    .card-info{
+        gap: 0.5rem;
+    }
+}
