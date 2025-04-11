@@ -639,7 +639,7 @@ body{
 }
 
 .footer-container{
-    margin-top: 2.5rem;
+    margin-top: 2.7rem;
     background-color: var(--background-color);
     text-align: start;
 }
@@ -720,17 +720,15 @@ body{
     color: #555;
 }
 
-hr{
-    max-width: 75%;
-    margin: 0 auto;
-}
-
 .copyright-section{
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     color: #555;
+    margin: 0 12%;
     padding: 0.5rem 0.3rem 1rem 0.3rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border-top: 1px solid #e5e7eb;
 }
